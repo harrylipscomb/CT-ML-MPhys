@@ -92,7 +92,7 @@ for n in range(int(projections_number)):
     plt.title("Image simulated using gVirtualXray\nusing a linear colour scale")
     plt.imshow(x_ray_image[n], cmap="gray")
     plt.colorbar(orientation='vertical');
-#    plt.savefig('square'+str(n)+'.png')
+    plt.savefig('square'+str(n)+'.png')
 
 
 #gvxr.renderLoop()
